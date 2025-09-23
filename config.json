@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "zy_bfzy",
-      "name": "资源-暴风ZY",
+      "name": "资源-暴风影院",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -47,7 +47,7 @@
     },
     {
       "key": "zy_baotv",
-      "name": "资源-暴风TV",
+      "name": "资源-暴风",
       "type": 1,
       "api": "https://baotvapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -55,7 +55,7 @@
       "filterable": 1
     },
     {
-      "key": "zy_okzy",
+      "key": "zy_okzyw",
       "name": "资源-OK",
       "type": 1,
       "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
@@ -82,15 +82,45 @@
       "filterable": 1
     }
   ],
+
+  "type_mapping": {
+    "动作片": "电影",
+    "喜剧片": "电影",
+    "爱情片": "电影",
+    "科幻片": "电影",
+    "恐怖片": "电影",
+    "战争片": "电影",
+    "纪录片": "电影",
+    "动画片": "电影",
+    "剧情片": "电影",
+
+    "国产剧": "电视剧",
+    "港台剧": "电视剧",
+    "日韩剧": "电视剧",
+    "欧美剧": "电视剧",
+    "海外剧": "电视剧",
+
+    "大陆综艺": "综艺",
+    "港台综艺": "综艺",
+    "日韩综艺": "综艺",
+    "欧美综艺": "综艺",
+
+    "国产动漫": "动漫",
+    "日本动漫": "动漫",
+    "欧美动漫": "动漫",
+    "动画": "动漫"
+  },
+
   "parses": [
     {
-      "name": "解析线路1",
+      "name": "解析-JsonPlayer",
       "url": "https://jx.jsonplayer.com/player/?url="
     },
     {
-      "name": "线路-Kuaiche 解析",
+      "name": "解析-快车",
       "url": "https://jiexi.kuaichezy.info/m3u8/?url="
     }
   ],
+
   "lives": []
 }

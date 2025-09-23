@@ -1,0 +1,38 @@
+{
+  "sites": [
+    {
+      "key": "zy_xmm",
+      "name": "资源-小明明",
+      "type": 1,
+      "api": "http://zy.xmm.hk/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zy_leduo",
+      "name": "资源-乐多",
+      "type": 1,
+      "api": "https://cj.leduozy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zy_kuaikan",
+      "name": "资源-快看",
+      "type": 1,
+      "api": "https://kuaikan-api.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析线路1",
+      "url": "https://jx.jsonplayer.com/player/?url="
+    }
+  ],
+  "lives": []
+}

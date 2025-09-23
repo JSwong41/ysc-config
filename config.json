@@ -41,4 +41,25 @@
       "name": "资源-量子",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "search
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zy_baotv",
+      "name": "资源-暴风",
+      "type": 1,
+      "api": "https://baotvapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析线路1",
+      "url": "https://jx.jsonplayer.com/player/?url="
+    }
+  ],
+  "lives": []
+}

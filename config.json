@@ -10,19 +10,28 @@
       "filterable": 1
     },
     {
-      "key": "zy_leduo",
-      "name": "资源-乐多",
+      "key": "zy_suoni",
+      "name": "资源-梭尼",
       "type": 1,
-      "api": "https://cj.leduozy.com/api.php/provide/vod/",
+      "api": "https://suoniapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "zy_kuaikan",
-      "name": "资源-快看",
+      "key": "zy_zuidapi",
+      "name": "资源-最大",
       "type": 1,
-      "api": "https://kuaikan-api.com/api.php/provide/vod/",
+      "api": "https://api.zuidapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zy_tyys",
+      "name": "资源-天翼",
+      "type": 1,
+      "api": "https://tyyszyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

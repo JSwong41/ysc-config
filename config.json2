@@ -1,0 +1,107 @@
+{
+  "sites": [
+    {
+      "key": "tvbox_official",
+      "name": "影视仓官方源",
+      "type": 1,
+      "api": "https://yun.139.com/sharewap/#/m/i?145C7TPWJRuAZ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "github_source",
+      "name": "GitHub 源",
+      "type": 1,
+      "api": "https://raw.githubusercontent.com/Newtxin/tvbox/main/2.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "mdxgh_source",
+      "name": "MDXGH 源",
+      "type": 1,
+      "api": "http://mdxgh.tpddns.cn:9999/mdxgh",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "freed_source",
+      "name": "Freed 源",
+      "type": 1,
+      "api": "https://freed.yuanhsing.cf/TVBox/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "meowcf_source",
+      "name": "MeowCF 源",
+      "type": 1,
+      "api": "http://tv.nxog.top/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "pandown_source",
+      "name": "PanDown 源",
+      "type": 1,
+      "api": "http://pandown.pro/tvbox/tvbox.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xhdwc_source",
+      "name": "骚零接口",
+      "type": 1,
+      "api": "https://xhdwc.tk/0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "fantaiying_source",
+      "name": "饭太硬线路",
+      "type": 1,
+      "api": "http://饭太硬.top/tv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xutv_source",
+      "name": "网友线路",
+      "type": 1,
+      "api": "http://xutv.alwaysdata.net/xu1027.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析线路1",
+      "url": "https://jiexi.kuaichezy.info/m3u8/?url="
+    }
+  ],
+  "lives": [],
+  "type_mapping": {
+    "动作片": "电影",
+    "喜剧片": "电影",
+    "爱情片": "电影",
+    "剧情片": "电影",
+    "恐怖片": "电影",
+    "科幻片": "电影",
+    "国产剧": "电视剧",
+    "欧美剧": "电视剧",
+    "日韩剧": "电视剧",
+    "大陆综艺": "综艺",
+    "港台综艺": "综艺",
+    "日本动漫": "动漫",
+    "欧美动漫": "动漫"
+  }
+}

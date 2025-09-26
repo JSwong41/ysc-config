@@ -7,24 +7,23 @@
   "quickSearch": 1,
   "filterable": 1,
   "filters": [
-    {"n": "地区", "v": "大陆,美国,韩国,日本"},
-    {"n": "类型", "v": "动作,喜剧,爱情,科幻,恐怖,动画,纪录片"},
-    {"n": "年份", "v": "2025,2024,2023,2022,2021,2020,2019及以前"}
+    {"n": "分类", "v": "电影,电视剧,综艺,动漫,动作片,喜剧片,爱情片,科幻片,恐怖片,剧情片,战争片,国产剧,欧美剧,韩剧,日剧,港剧,台剧,泰剧,纪录片,海外剧,大陆综艺,日韩综艺,港台综艺,欧美综艺,国产动漫,日韩动漫,欧美动漫,动画片,港台动漫,海外动漫,演唱会,体育赛事,篮球,足球,预告片,斯诺克,影视解说,爽文短剧,伦理,港台三级,韩国伦理,西方伦理,日本伦理,两性课堂,写真热舞,4K电影,有声动漫,女频恋爱,反转爽剧,古装仙侠,年代穿越,脑洞悬疑,现代都市,邵氏电影,Netflix电影,Netflix自制剧,擦边短剧"}
   ],
   "list": {
     "url": "https://suoniapi.com/api.php/provide/vod/?ac=list",
     "method": "GET",
     "params": {
-      "limit": 20,
-      "page": 1,
-      "type": ""
+      "pg": 1,
+      "t": ""
     },
     "parse": {
       "id": "vod_id",
       "title": "vod_name",
       "cover": "vod_pic",
       "desc": "vod_remarks",
-      "url": "vod_play_url"
+      "type_id": "type_id",
+      "type_name": "type_name",
+      "play_from": "vod_play_from"
     }
   },
   "search": {
@@ -38,20 +37,21 @@
       "title": "vod_name",
       "cover": "vod_pic",
       "desc": "vod_remarks",
-      "url": "vod_play_url"
+      "type_id": "type_id",
+      "type_name": "type_name",
+      "play_from": "vod_play_from"
     }
   },
   "play": {
-    "url": "https://suoniapi.com/api.php/provide/vod/?ac=play",
+    "url": "https://suoniapi.com/api.php/provide/vod/?ac=play&id=",
     "method": "GET",
     "params": {
       "id": ""
     },
     "parse": {
-      "url": "url",           // 播放地址字段
-      "title": "title",       // 影片标题
-      "type": "type",         // 播放类型（如 m3u8 或 mp4）
-      "episode": "episode"    // 分集信息
+      "url": "url",      // 真实播放地址由 APP 内置解析 snm3u8 处理
+      "title": "title",
+      "episode": "episode"
     }
   }
 }

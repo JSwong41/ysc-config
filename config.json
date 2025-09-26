@@ -22,7 +22,7 @@
     "parse": {
       "id": "vod_id",
       "title": "vod_name",
-      "cover": "vod_pic",
+      "cover": "https://example.com/placeholder.jpg",
       "desc": "vod_remarks",
       "type_id": "type_id",
       "type_name": "type_name",
@@ -30,7 +30,7 @@
     }
   },
   "search": {
-    "url": "https://suoniapi.com/api.php/provide/vod/?ac=detail",
+    "url": "https://suoniapi.com/api.php/provide/vod/?ac=list",
     "method": "GET",
     "params": {
       "wd": ""
@@ -38,25 +38,11 @@
     "parse": {
       "id": "vod_id",
       "title": "vod_name",
-      "cover": "vod_pic",
+      "cover": "https://example.com/placeholder.jpg",
       "desc": "vod_remarks",
       "type_id": "type_id",
       "type_name": "type_name",
       "play_from": "vod_play_from"
     }
-  },
-  "play": {
-    "url": "https://suoniapi.com/api.php/provide/vod/?ac=play&id={id}&from={play_from}",
-    "method": "GET",
-    "params": {
-      "id": "",
-      "from": ""
-    },
-    "parse": {
-      "url": "url",
-      "title": "title",
-      "episode": "episode"
-    },
-    "auto_parse_m3u8": true
   }
 }

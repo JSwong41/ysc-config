@@ -172,15 +172,6 @@
       "filterable": 1
     },
     {
-      "key": "zy_rycj",
-      "name": "资源-睿采集",
-      "type": 1,
-      "api": "https://cj.rycjapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "zy_wwzy",
       "name": "资源-万能资源",
       "type": 1,

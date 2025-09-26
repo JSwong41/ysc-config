@@ -7,7 +7,8 @@
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_yzzy",
@@ -16,7 +17,8 @@
       "api": "https://api.yzzy-api.com/inc/api_mac10_all.php",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_tyys",
@@ -25,7 +27,8 @@
       "api": "https://tyyszyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_suoni",
@@ -34,7 +37,8 @@
       "api": "https://suoniapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_lziapi",
@@ -43,7 +47,8 @@
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_okzyw",
@@ -52,7 +57,8 @@
       "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_wujin",
@@ -61,7 +67,8 @@
       "api": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_kuaiche",
@@ -70,7 +77,8 @@
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_ukuapi",
@@ -79,7 +87,8 @@
       "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_subocj",
@@ -88,7 +97,8 @@
       "api": "https://subocj.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_apibdzy",
@@ -97,16 +107,18 @@
       "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_dbzy5",
       "name": "资源-大白",
       "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_iqiyi",
@@ -115,7 +127,8 @@
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_dytt",
@@ -124,7 +137,8 @@
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 0,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_jszy",
@@ -133,7 +147,8 @@
       "api": "https://jszyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     },
     {
       "key": "zy_ffzy",
@@ -142,10 +157,90 @@
       "api": "http://api.ffzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 0,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
+    },
+    {
+      "key": "zy_maoyan",
+      "name": "资源-猫眼",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
+    },
+    {
+      "key": "zy_zuidapi",
+      "name": "资源-最大",
+      "type": 1,
+      "api": "https://api.zuidapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
+    },
+    {
+      "key": "zy_huya",
+      "name": "资源-虎牙",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
+    },
+    {
+      "key": "zy_hongniu",
+      "name": "资源-红牛",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
+    },
+    {
+      "key": "zy_mozhua",
+      "name": "资源-魔爪",
+      "type": 1,
+      "api": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
+    },
+    {
+      "key": "zy_rycj",
+      "name": "资源-人人采集",
+      "type": 1,
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
+    },
+    {
+      "key": "zy_wwzy",
+      "name": "资源-哇哇",
+      "type": 1,
+      "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
+    },
+    {
+      "key": "zy_360zy",
+      "name": "资源-360",
+      "type": 1,
+      "api": "https://360zyzz.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影", "电视剧", "综艺", "动漫"]
     }
   ],
-
   "parses": [
     {
       "name": "解析-JsonPlayer",
@@ -166,26 +261,6 @@
     {
       "name": "解析-OK解析",
       "url": "https://okjx.cc/?url="
-    }
-  ],
-
-  "lives": [
-    {
-      "group": "综合频道",
-      "channels": [
-        {
-          "name": "CCTV-1 综合",
-          "urls": ["http://liveop.cctv.cn/hls/CCTV1HD/playlist.m3u8"]
-        },
-        {
-          "name": "CCTV-5 体育",
-          "urls": ["http://liveop.cctv.cn/hls/CCTV5HD/playlist.m3u8"]
-        },
-        {
-          "name": "CCTV-13 新闻",
-          "urls": ["http://liveop.cctv.cn/hls/CCTV13HD/playlist.m3u8"]
-        }
-      ]
     }
   ]
 }

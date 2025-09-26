@@ -173,7 +173,7 @@
     },
     {
       "key": "zy_rycj",
-      "name": "资源-睿采集",
+      "name": "资源-睿采集2",
       "type": 1,
       "api": "https://cj.rycjapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,

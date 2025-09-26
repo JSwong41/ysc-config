@@ -74,7 +74,7 @@
     },
     {
       "key": "zy_ukuapi",
-      "name": "资源-优酷API",
+      "name": "资源-优酷",
       "type": 1,
       "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -118,15 +118,6 @@
       "filterable": 1
     },
     {
-      "key": "zy_dytt",
-      "name": "资源-电影天堂",
-      "type": 0,
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "zy_jszy",
       "name": "资源-极速",
       "type": 1,
@@ -134,15 +125,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "zy_ffzy",
-      "name": "资源-非凡",
-      "type": 0,
-      "api": "http://api.ffzyapi.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
     {
       "key": "zy_maoyan",
@@ -154,19 +136,10 @@
       "filterable": 1
     },
     {
-      "key": "zy_zuidapi",
-      "name": "资源-最大",
+      "key": "zy_zuid",
+      "name": "资源-最电影",
       "type": 1,
       "api": "https://api.zuidapi.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "zy_subocj_json",
-      "name": "资源-速播JSON",
-      "type": 1,
-      "api": "https://subocj.com/api.php/provide/vod/at/json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -191,7 +164,7 @@
     },
     {
       "key": "zy_mozhua",
-      "name": "资源-魔爪",
+      "name": "资源-墨爪",
       "type": 1,
       "api": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -200,7 +173,7 @@
     },
     {
       "key": "zy_rycj",
-      "name": "资源-人人采集",
+      "name": "资源-睿采集",
       "type": 1,
       "api": "https://cj.rycjapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -209,7 +182,7 @@
     },
     {
       "key": "zy_wwzy",
-      "name": "资源-五五",
+      "name": "资源-万能资源",
       "type": 1,
       "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -218,35 +191,12 @@
     },
     {
       "key": "zy_360zy",
-      "name": "资源-360",
+      "name": "资源-360资源",
       "type": 1,
       "api": "https://360zyzz.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    }
-  ],
-
-  "parses": [
-    {
-      "name": "解析-JsonPlayer",
-      "url": "https://jx.jsonplayer.com/player/?url="
-    },
-    {
-      "name": "解析-快车",
-      "url": "https://jiexi.kuaichezy.info/m3u8/?url="
-    },
-    {
-      "name": "解析-爱豆",
-      "url": "https://jx.aidouer.net/?url="
-    },
-    {
-      "name": "解析-人人迷",
-      "url": "https://jx.blbo.cc:4433/?url="
-    },
-    {
-      "name": "解析-OK解析",
-      "url": "https://okjx.cc/?url="
     }
   ]
 }

@@ -201,9 +201,9 @@
     },
     {
       "key": "zy_360zy",
-      "name": "资源-360资源",
+      "name": "资源-天堂",
       "type": 1,
-      "api": "https://360zyzz.com/api.php/provide/vod",
+      "api": "https://fmtv01.ggff.net/dianying/dianying.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

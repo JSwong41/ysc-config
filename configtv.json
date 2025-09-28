@@ -183,18 +183,18 @@
     },
     {
       "key": "zy_rycj",
-      "name": "资源-睿采集2",
+      "name": "资源-最大",
       "type": 1,
-      "api": "https://cj.rycjapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://fmtv01.ggff.net/zuida/zuida.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
       "key": "zy_wwzy",
-      "name": "资源-万能资源",
+      "name": "资源-天涯",
       "type": 1,
-      "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
+      "api": "https://fmtv01.ggff.net/tianya/tianya.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
